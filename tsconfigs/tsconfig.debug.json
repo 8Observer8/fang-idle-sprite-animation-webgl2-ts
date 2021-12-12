@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "AMD",
+        "sourceMap": true,
+        "types": [
+            "gl-matrix",
+            "requirejs"
+        ]
+    }
+}

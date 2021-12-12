@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "sourceMap": false,
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "../src/client/requireConfig.ts"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "fang-idle-sprite-animation-webgl2-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "tsc -p tsconfigs/tsconfig.debug.json",
+    "compile": "tsc -p tsconfigs/tsconfig.release.json",
+    "bundle": "browserify public/js/main.js -o public/js/bundle.js",
+    "minify": "uglifyjs public/js/bundle.js -o public/js/bundle.min.js",
+    "release": "npm run compile && npm run bundle && npm run minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gl-matrix": "^3.4.3",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "@types/requirejs": "^2.1.32"
+  }
+}

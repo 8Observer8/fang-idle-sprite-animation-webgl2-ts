@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "outDir": "../public/js"
+    },
+    "include": [
+        "../src/client/**/*.ts"
+    ]
+}
